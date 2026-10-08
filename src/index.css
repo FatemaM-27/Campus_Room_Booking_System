@@ -1,1 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --color-ink: #12231f;
+  --color-paper: #f5efe3;
+  --color-saffron: #f2b134;
+  --color-coral: #ff6a4d;
+  --color-mint: #8fd9bf;
+  --font-display: "Fraunces", serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}

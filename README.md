@@ -1,16 +1,37 @@
-# React + Vite
+# Campus Study Room Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+StudySpot is a React frontend where students can browse study rooms, search for one, submit a booking request, and track their bookings.
 
-Currently, two official plugins are available:
+## Problem Statement
+A college has multiple study rooms for group discussions and project work. Students need a simple application to view available rooms, search for a suitable room, submit a booking request, and view their bookings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- View study rooms as cards (name, building, floor, capacity, facilities, availability)
+- Search rooms by name or building, plus an "open only" filter
+- Booking form with validation (including room capacity check)
+- Booking confirmation without page refresh
+- My Bookings page with status badges, cancel and remove
+- Bookings saved in the browser (localStorage)
+- Responsive layout with React Router navigation
 
-## React Compiler
+## Technologies Used
+React, Vite, React Router, Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Application Screens
+- **Home:** introduction and feature overview
+- **Rooms:** searchable list of room cards
+- **Book Room:** controlled booking form with confirmation
+- **My Bookings:** list of submitted bookings
 
-## Expanding the ESLint configuration
+## How to Run the Project
+1. Clone the repository
+2. `npm install`
+3. `npm run dev`
+4. Open the localhost link shown in the terminal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key React Concepts Demonstrated
+Functional components, JSX, props, reusable components, useState, controlled inputs, onChange/onSubmit/preventDefault, list rendering with map() and unique keys, useEffect (loading simulation, document title, localStorage sync), lifting state up, React Router (including query parameters), Tailwind CSS.
+
+## Note
+This project was developed as part of MERN Stack Placement Training.

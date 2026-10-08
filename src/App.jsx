@@ -58,7 +58,7 @@ function App() {
       </main>
 
       <footer className="bg-ink text-paper text-center text-sm py-4 border-t-4 border-saffron">
-        StudySpot · Campus Study Room Booking · Built during MERN Stack Training
+        StudySpot · Campus Study Room Booking 
       </footer>
     </div>
   );
